@@ -13,6 +13,17 @@
                 <div class="card-body">
                     <table>
                         <tr>
+                            <th>Foto</th>
+                            <td>:</td>
+                            <td>
+                                @if($data->foto)
+                                <img src="{{$data->foto_url}}" class="img-thumbnail" style="width: 140px; height: 140px; object-fit: cover;">
+                                @else
+                                -
+                                @endif
+                            </td>
+                        </tr>
+                        <tr>
                             <th>Nama</th>
                             <td>:</td>
                             <td>{{$data->nama}}</td>
@@ -26,6 +37,11 @@
                             <th>Laba</th>
                             <td>:</td>
                             <td>{{$data->laba}}</td>
+                        </tr>
+                        <tr>
+                            <th>Kategori</th>
+                            <td>:</td>
+                            <td>{{$data->kategoriItems->pluck('nama')->join(', ') ?: '-'}}</td>
                         </tr>
                         <tr>
                             <th>Harga Jual</th>

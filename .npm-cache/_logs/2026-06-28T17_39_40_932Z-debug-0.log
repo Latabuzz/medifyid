@@ -1,0 +1,922 @@
+0 verbose cli D:\node.js\node.exe D:\node.js\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v25.1.0
+3 silly config load:file:D:\node.js\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Asus\Downloads\medifyid\.npmrc
+5 silly config load:file:C:\Users\Asus\.npmrc
+6 silly config load:file:C:\Users\Asus\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\Asus\Downloads\medifyid\.npm-cache\_logs\2026-06-28T17_39_40_932Z-
+10 verbose logfile C:\Users\Asus\Downloads\medifyid\.npm-cache\_logs\2026-06-28T17_39_40_932Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\asynckit' ]
+15 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\anymatch' ]
+16 silly reify mark retired [
+16 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\binary-extensions'
+16 silly reify ]
+17 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\axios' ]
+18 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\braces' ]
+19 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\bootstrap' ]
+20 silly reify mark retired [
+20 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\combined-stream'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\delayed-stream'
+21 silly reify ]
+22 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\esbuild' ]
+23 silly reify mark retired [
+23 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\esbuild-windows-64'
+23 silly reify ]
+24 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\fill-range' ]
+25 silly reify mark retired [
+25 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\follow-redirects'
+25 silly reify ]
+26 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\chokidar' ]
+27 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\form-data' ]
+28 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\function-bind' ]
+29 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\immutable' ]
+30 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\has' ]
+31 silly reify mark retired [
+31 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\is-core-module'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\laravel-vite-plugin'
+32 silly reify ]
+33 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\nanoid' ]
+34 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\picocolors' ]
+35 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\postcss' ]
+36 silly reify mark retired [
+36 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\proxy-from-env'
+36 silly reify ]
+37 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\resolve' ]
+38 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\rollup' ]
+39 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\sass' ]
+40 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\source-map-js' ]
+41 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\vite' ]
+42 silly reify mark retired [
+42 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\vite-plugin-full-reload'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\@popperjs\\core'
+43 silly reify ]
+44 silly reify moves {
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\asynckit': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.asynckit-sjA3OgpC',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\anymatch': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.anymatch-D6tqkLjD',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\binary-extensions': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.binary-extensions-otQVdSUm',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\axios': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.axios-DyqFMQGD',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\braces': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.braces-pn8ecSUT',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\bootstrap': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.bootstrap-ZgJgvc35',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\combined-stream': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.combined-stream-fluGpPtR',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\delayed-stream': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.delayed-stream-xkq3EzHt',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\esbuild': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.esbuild-xXFcebf0',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\esbuild-windows-64': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.esbuild-windows-64-8DFlWgTt',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\fill-range': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.fill-range-RaGuSt5P',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\follow-redirects': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.follow-redirects-fTXTmzwI',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\chokidar': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.chokidar-GEvpqpkU',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\form-data': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.form-data-PF88lJSW',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\function-bind': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.function-bind-uouKql7e',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\immutable': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.immutable-w79HQG2E',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\has': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.has-w2p6VUYp',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\is-core-module': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.is-core-module-wSiwAAF7',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\laravel-vite-plugin': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.laravel-vite-plugin-AF8mypno',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\nanoid': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.nanoid-skQ5opJw',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\picocolors': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.picocolors-UPpqk4tN',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\postcss': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.postcss-SxvDKaRu',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\proxy-from-env': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.proxy-from-env-AUkOWed0',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\resolve': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.resolve-Za8arRWT',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\rollup': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.rollup-XFpaNKQ3',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\sass': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.sass-BlTTDYxL',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\source-map-js': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.source-map-js-tvVXuVkO',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\vite': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.vite-I0ztkcdM',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\vite-plugin-full-reload': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.vite-plugin-full-reload-Jm1IEEcE',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\@popperjs\\core': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\@popperjs\\.core-F4pqr0Kj'
+44 silly reify }
+45 silly audit bulk request {
+45 silly audit   '@esbuild/android-arm': [ '0.15.13' ],
+45 silly audit   '@esbuild/linux-loong64': [ '0.15.13' ],
+45 silly audit   '@popperjs/core': [ '2.11.6' ],
+45 silly audit   anymatch: [ '3.1.2' ],
+45 silly audit   asynckit: [ '0.4.0' ],
+45 silly audit   axios: [ '1.1.3' ],
+45 silly audit   'binary-extensions': [ '2.2.0' ],
+45 silly audit   bootstrap: [ '5.2.2' ],
+45 silly audit   braces: [ '3.0.2' ],
+45 silly audit   chokidar: [ '3.5.3' ],
+45 silly audit   'combined-stream': [ '1.0.8' ],
+45 silly audit   'delayed-stream': [ '1.0.0' ],
+45 silly audit   esbuild: [ '0.15.13' ],
+45 silly audit   'esbuild-android-64': [ '0.15.13' ],
+45 silly audit   'esbuild-android-arm64': [ '0.15.13' ],
+45 silly audit   'esbuild-darwin-64': [ '0.15.13' ],
+45 silly audit   'esbuild-darwin-arm64': [ '0.15.13' ],
+45 silly audit   'esbuild-freebsd-64': [ '0.15.13' ],
+45 silly audit   'esbuild-freebsd-arm64': [ '0.15.13' ],
+45 silly audit   'esbuild-linux-32': [ '0.15.13' ],
+45 silly audit   'esbuild-linux-64': [ '0.15.13' ],
+45 silly audit   'esbuild-linux-arm': [ '0.15.13' ],
+45 silly audit   'esbuild-linux-arm64': [ '0.15.13' ],
+45 silly audit   'esbuild-linux-mips64le': [ '0.15.13' ],
+45 silly audit   'esbuild-linux-ppc64le': [ '0.15.13' ],
+45 silly audit   'esbuild-linux-riscv64': [ '0.15.13' ],
+45 silly audit   'esbuild-linux-s390x': [ '0.15.13' ],
+45 silly audit   'esbuild-netbsd-64': [ '0.15.13' ],
+45 silly audit   'esbuild-openbsd-64': [ '0.15.13' ],
+45 silly audit   'esbuild-sunos-64': [ '0.15.13' ],
+45 silly audit   'esbuild-windows-32': [ '0.15.13' ],
+45 silly audit   'esbuild-windows-64': [ '0.15.13' ],
+45 silly audit   'esbuild-windows-arm64': [ '0.15.13' ],
+45 silly audit   'fill-range': [ '7.0.1' ],
+45 silly audit   'follow-redirects': [ '1.15.2' ],
+45 silly audit   'form-data': [ '4.0.0' ],
+45 silly audit   fsevents: [ '2.3.2' ],
+45 silly audit   'function-bind': [ '1.1.1' ],
+45 silly audit   'glob-parent': [ '5.1.2' ],
+45 silly audit   has: [ '1.0.3' ],
+45 silly audit   immutable: [ '4.1.0' ],
+45 silly audit   'is-binary-path': [ '2.1.0' ],
+45 silly audit   'is-core-module': [ '2.11.0' ],
+45 silly audit   'is-extglob': [ '2.1.1' ],
+45 silly audit   'is-glob': [ '4.0.3' ],
+45 silly audit   'is-number': [ '7.0.0' ],
+45 silly audit   'laravel-vite-plugin': [ '0.6.1' ],
+45 silly audit   lodash: [ '4.17.21' ],
+45 silly audit   'mime-db': [ '1.52.0' ],
+45 silly audit   'mime-types': [ '2.1.35' ],
+45 silly audit   nanoid: [ '3.3.4' ],
+45 silly audit   'normalize-path': [ '3.0.0' ],
+45 silly audit   'path-parse': [ '1.0.7' ],
+45 silly audit   picocolors: [ '1.0.0' ],
+45 silly audit   picomatch: [ '2.3.1' ],
+45 silly audit   postcss: [ '8.4.18' ],
+45 silly audit   'proxy-from-env': [ '1.1.0' ],
+45 silly audit   readdirp: [ '3.6.0' ],
+45 silly audit   resolve: [ '1.22.1' ],
+45 silly audit   rollup: [ '2.79.1' ],
+45 silly audit   sass: [ '1.56.0' ],
+45 silly audit   'source-map-js': [ '1.0.2' ],
+45 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+45 silly audit   'to-regex-range': [ '5.0.1' ],
+45 silly audit   vite: [ '3.2.2' ],
+45 silly audit   'vite-plugin-full-reload': [ '1.0.4' ]
+45 silly audit }
+46 http cache @popperjs/core@https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz 0ms (cache hit)
+47 http cache vite-plugin-full-reload@https://registry.npmjs.org/vite-plugin-full-reload/-/vite-plugin-full-reload-1.0.4.tgz 0ms (cache hit)
+48 http cache source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz 0ms (cache hit)
+49 http cache vite@https://registry.npmjs.org/vite/-/vite-3.2.2.tgz 0ms (cache hit)
+50 http cache sass@https://registry.npmjs.org/sass/-/sass-1.56.0.tgz 0ms (cache hit)
+51 http cache rollup@https://registry.npmjs.org/rollup/-/rollup-2.79.1.tgz 0ms (cache hit)
+52 http cache resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz 0ms (cache hit)
+53 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.18.tgz 0ms (cache hit)
+54 http cache picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz 0ms (cache hit)
+55 http cache nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.4.tgz 0ms (cache hit)
+56 http cache laravel-vite-plugin@https://registry.npmjs.org/laravel-vite-plugin/-/laravel-vite-plugin-0.6.1.tgz 0ms (cache hit)
+57 http cache proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 0ms (cache hit)
+58 http cache has@https://registry.npmjs.org/has/-/has-1.0.3.tgz 0ms (cache hit)
+59 http cache is-core-module@https://registry.npmjs.org/is-core-module/-/is-core-module-2.11.0.tgz 0ms (cache hit)
+60 http cache form-data@https://registry.npmjs.org/form-data/-/form-data-4.0.0.tgz 0ms (cache hit)
+61 http cache function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz 0ms (cache hit)
+62 http cache immutable@https://registry.npmjs.org/immutable/-/immutable-4.1.0.tgz 0ms (cache hit)
+63 http cache chokidar@https://registry.npmjs.org/chokidar/-/chokidar-3.5.3.tgz 0ms (cache hit)
+64 http cache follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.2.tgz 0ms (cache hit)
+65 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.15.13.tgz 0ms (cache hit)
+66 http cache fill-range@https://registry.npmjs.org/fill-range/-/fill-range-7.0.1.tgz 0ms (cache hit)
+67 http cache esbuild-windows-64@https://registry.npmjs.org/esbuild-windows-64/-/esbuild-windows-64-0.15.13.tgz 0ms (cache hit)
+68 http cache combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 0ms (cache hit)
+69 http cache axios@https://registry.npmjs.org/axios/-/axios-1.1.3.tgz 0ms (cache hit)
+70 http cache braces@https://registry.npmjs.org/braces/-/braces-3.0.2.tgz 0ms (cache hit)
+71 http cache bootstrap@https://registry.npmjs.org/bootstrap/-/bootstrap-5.2.2.tgz 0ms (cache hit)
+72 http cache delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 0ms (cache hit)
+73 http cache binary-extensions@https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.2.0.tgz 0ms (cache hit)
+74 http cache asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 0ms (cache hit)
+75 silly tarball no local data for @popperjs/core@https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz. Extracting by manifest.
+76 silly tarball no local data for vite-plugin-full-reload@https://registry.npmjs.org/vite-plugin-full-reload/-/vite-plugin-full-reload-1.0.4.tgz. Extracting by manifest.
+77 silly tarball no local data for source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz. Extracting by manifest.
+78 silly tarball no local data for vite@https://registry.npmjs.org/vite/-/vite-3.2.2.tgz. Extracting by manifest.
+79 silly tarball no local data for sass@https://registry.npmjs.org/sass/-/sass-1.56.0.tgz. Extracting by manifest.
+80 http cache anymatch@https://registry.npmjs.org/anymatch/-/anymatch-3.1.2.tgz 0ms (cache hit)
+81 silly tarball no local data for rollup@https://registry.npmjs.org/rollup/-/rollup-2.79.1.tgz. Extracting by manifest.
+82 silly tarball no local data for resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz. Extracting by manifest.
+83 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.18.tgz. Extracting by manifest.
+84 silly tarball no local data for picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz. Extracting by manifest.
+85 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.4.tgz. Extracting by manifest.
+86 silly tarball no local data for laravel-vite-plugin@https://registry.npmjs.org/laravel-vite-plugin/-/laravel-vite-plugin-0.6.1.tgz. Extracting by manifest.
+87 silly tarball no local data for proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz. Extracting by manifest.
+88 silly tarball no local data for has@https://registry.npmjs.org/has/-/has-1.0.3.tgz. Extracting by manifest.
+89 silly tarball no local data for is-core-module@https://registry.npmjs.org/is-core-module/-/is-core-module-2.11.0.tgz. Extracting by manifest.
+90 silly tarball no local data for form-data@https://registry.npmjs.org/form-data/-/form-data-4.0.0.tgz. Extracting by manifest.
+91 silly tarball no local data for function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz. Extracting by manifest.
+92 silly tarball no local data for immutable@https://registry.npmjs.org/immutable/-/immutable-4.1.0.tgz. Extracting by manifest.
+93 silly tarball no local data for chokidar@https://registry.npmjs.org/chokidar/-/chokidar-3.5.3.tgz. Extracting by manifest.
+94 silly tarball no local data for follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.2.tgz. Extracting by manifest.
+95 silly tarball no local data for esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.15.13.tgz. Extracting by manifest.
+96 silly tarball no local data for fill-range@https://registry.npmjs.org/fill-range/-/fill-range-7.0.1.tgz. Extracting by manifest.
+97 silly tarball no local data for esbuild-windows-64@https://registry.npmjs.org/esbuild-windows-64/-/esbuild-windows-64-0.15.13.tgz. Extracting by manifest.
+98 silly tarball no local data for combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz. Extracting by manifest.
+99 silly tarball no local data for axios@https://registry.npmjs.org/axios/-/axios-1.1.3.tgz. Extracting by manifest.
+100 silly tarball no local data for braces@https://registry.npmjs.org/braces/-/braces-3.0.2.tgz. Extracting by manifest.
+101 silly tarball no local data for bootstrap@https://registry.npmjs.org/bootstrap/-/bootstrap-5.2.2.tgz. Extracting by manifest.
+102 silly tarball no local data for delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz. Extracting by manifest.
+103 silly tarball no local data for binary-extensions@https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.2.0.tgz. Extracting by manifest.
+104 silly tarball no local data for asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz. Extracting by manifest.
+105 silly tarball no local data for anymatch@https://registry.npmjs.org/anymatch/-/anymatch-3.1.2.tgz. Extracting by manifest.
+106 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1493ms
+107 silly audit report {
+107 silly audit report   axios: [
+107 silly audit report     {
+107 silly audit report       id: 1111035,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-jr5f-v2jv-69x6',
+107 silly audit report       title: 'axios Requests Vulnerable To Possible SSRF and Credential Leakage via Absolute URL',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.8.2',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1118607,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-q8qp-cvcw-x6jj',
+107 silly audit report       title: 'Axios has prototype pollution read-side gadgets in HTTP adapter that allow credential injection and request hijacking',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.2',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1112195,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-4hjh-wcwx-xvwj',
+107 silly audit report       title: 'Axios is vulnerable to DoS attack through lack of data size check',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.12.0',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1119404,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-fvcv-3m26-pcqx',
+107 silly audit report       title: 'Axios has Unrestricted Cloud Metadata Exfiltration via Header Injection Chain',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.0',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1119667,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-pjwm-pj3p-43mv',
+107 silly audit report       title: "axios's shouldBypassProxy does not recognize IPv4-mapped IPv6 addresses, allowing NO_PROXY bypass (incomplete fix for CVE-2025-62718)",
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.16.0',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1120125,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-62hf-57xw-28j9',
+107 silly audit report       title: 'Axios: unbounded recursion in toFormData causes DoS via deeply nested request data',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1120547,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-hfxv-24rg-xrqf',
+107 silly audit report       title: 'Axios: Regular Expression Denial of Service (ReDoS) via Cookie Name Injection',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.16.0',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1120645,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-p92q-9vqr-4j8v',
+107 silly audit report       title: 'Axios: Proxy-Authorization Credential Leak to Origin Server Across HTTP-to-HTTPS Redirect in Axios Node.js HTTP Adapter',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.16.0',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1120647,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-j5f8-grm9-p9fc',
+107 silly audit report       title: 'Axios: Proxy-Authorization header leaks to redirect target when proxy is re-evaluated to direct connection',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.16.0',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1120649,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-3g43-6gmg-66jw',
+107 silly audit report       title: 'axios Vulnerable to Credential Theft and Response Hijacking via Prototype Pollution Gadget in Config Merge',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.2',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1120650,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-35jp-ww65-95wh',
+107 silly audit report       title: 'axios Vulnerable to Full Man-in-the-Middle via Prototype Pollution Gadget in `config.proxy`',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.16.0',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1120652,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-898c-q2cr-xwhg',
+107 silly audit report       title: 'axios has DoS & Header Injection via Prototype Pollution Read-Side Gadgets in axios merge functions',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.16.0',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1116673,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-3p68-rc4w-qgx5',
+107 silly audit report       title: 'Axios has a NO_PROXY Hostname Normalization Bypass that Leads to SSRF',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.0',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1117574,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-w9j2-pvgh-6h63',
+107 silly audit report       title: 'Axios: Authentication Bypass via Prototype Pollution Gadget in `validateStatus` Merge Strategy',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1117576,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-pmwg-cvhr-8vh7',
+107 silly audit report       title: 'Axios: Incomplete Fix for CVE-2025-62718 — NO_PROXY Protection Bypassed via RFC 1122 Loopback Subnet (127.0.0.0/8) in Axios 1.15.0',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1117577,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-3w6x-2g7m-8v23',
+107 silly audit report       title: 'Axios: Invisible JSON Response Tampering via Prototype Pollution Gadget in `parseReviver`',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.2',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1117580,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-xhjh-pmcv-23jw',
+107 silly audit report       title: 'Axios: Null Byte Injection via Reverse-Encoding in AxiosURLSearchParams',
+107 silly audit report       severity: 'low',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1117581,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-445q-vr5w-6q77',
+107 silly audit report       title: 'Axios: CRLF Injection in multipart/form-data body via unsanitized blob.type in formDataToStream',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1117583,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-m7pr-hjqh-92cm',
+107 silly audit report       title: 'Axios: no_proxy bypass via IP alias allows SSRF',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1117587,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-5c9x-8gcm-mpgx',
+107 silly audit report       title: "Axios' HTTP adapter-streamed uploads bypass maxBodyLength when maxRedirects: 0",
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1117589,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-vf2m-468p-8v99',
+107 silly audit report       title: 'Axios: HTTP adapter streamed responses bypass maxContentLength',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1117591,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-pf86-5x62-jrwf',
+107 silly audit report       title: 'Axios: Prototype Pollution Gadgets - Response Tampering, Data Exfiltration, and Request Hijacking',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1117593,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-6chq-wfr3-2hj9',
+107 silly audit report       title: 'Axios: Header Injection via Prototype Pollution',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1117595,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-xx6v-rp6x-q39c',
+107 silly audit report       title: 'Axios: XSRF Token Cross-Origin Leakage via Prototype Pollution Gadget in `withXSRFToken` Boolean Coercion',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1117858,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-43fc-jf86-j433',
+107 silly audit report       title: 'Axios is Vulnerable to Denial of Service via __proto__ Key in mergeConfig',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <=1.13.4',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1097680,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-wf5p-g6vw-rhxx',
+107 silly audit report       title: 'Axios Cross-Site Request Forgery Vulnerability',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '>=1.0.0 <1.6.0',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     }
+107 silly audit report   ],
+107 silly audit report   braces: [
+107 silly audit report     {
+107 silly audit report       id: 1098094,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-grv7-fg5c-xmjg',
+107 silly audit report       title: 'Uncontrolled resource consumption in braces',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '<3.0.3',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     }
+107 silly audit report   ],
+107 silly audit report   esbuild: [
+107 silly audit report     {
+107 silly audit report       id: 1102341,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-67mh-4wv8-2f99',
+107 silly audit report       title: 'esbuild enables any website to send any requests to the development server and read the response',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '<=0.24.2',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     }
+107 silly audit report   ],
+107 silly audit report   'follow-redirects': [
+107 silly audit report     {
+107 silly audit report       id: 1109569,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-jchw-25xp-jwwc',
+107 silly audit report       title: 'Follow Redirects improperly handles URLs in the url.parse() function',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '<1.15.4',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1096856,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-cxjh-pqwp-8mfp',
+107 silly audit report       title: "follow-redirects' Proxy-Authorization header kept across hosts",
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '<=1.15.5',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1116560,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-r4q5-vmmm-2653',
+107 silly audit report       title: 'follow-redirects leaks Custom Authentication Headers to Cross-Domain Redirect Targets',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '<=1.15.11',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     }
+107 silly audit report   ],
+107 silly audit report   'form-data': [
+107 silly audit report     {
+107 silly audit report       id: 1109538,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-fjxv-7rqg-78g4',
+107 silly audit report       title: 'form-data uses unsafe random function in form-data for choosing boundary',
+107 silly audit report       severity: 'critical',
+107 silly audit report       vulnerable_versions: '>=4.0.0 <4.0.4',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1120743,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-hmw2-7cc7-3qxx',
+107 silly audit report       title: 'form-data: CRLF injection in form-data via unescaped multipart field names and filenames',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '>=4.0.0 <4.0.6',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     }
+107 silly audit report   ],
+107 silly audit report   immutable: [
+107 silly audit report     {
+107 silly audit report       id: 1117067,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-wf6x-7x77-mvgw',
+107 silly audit report       title: 'Immutable is vulnerable to Prototype Pollution',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '>=4.0.0-rc.1 <4.3.8',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     }
+107 silly audit report   ],
+107 silly audit report   lodash: [
+107 silly audit report     {
+107 silly audit report       id: 1120370,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-xxjr-mmjv-4gpg',
+107 silly audit report       title: 'Lodash has Prototype Pollution Vulnerability in `_.unset` and `_.omit` functions',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '>=4.0.0 <=4.17.22',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1115806,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-r5fr-rjxr-66jc',
+107 silly audit report       title: 'lodash vulnerable to Code Injection via `_.template` imports key names',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '>=4.0.0 <=4.17.23',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1115810,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-f23m-r3pf-42rh',
+107 silly audit report       title: 'lodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit`',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '<=4.17.23',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     }
+107 silly audit report   ],
+107 silly audit report   nanoid: [
+107 silly audit report     {
+107 silly audit report       id: 1109563,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-mwcw-c2x4-8c55',
+107 silly audit report       title: 'Predictable results in nanoid generation when given non-integer values',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '<3.3.8',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     }
+107 silly audit report   ],
+107 silly audit report   picomatch: [
+107 silly audit report     {
+107 silly audit report       id: 1115549,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-3v7f-55p6-f55p',
+107 silly audit report       title: 'Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '<2.3.2',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1115552,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-c2c7-rcm5-vvqj',
+107 silly audit report       title: 'Picomatch has a ReDoS vulnerability via extglob quantifiers',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '<2.3.2',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     }
+107 silly audit report   ],
+107 silly audit report   postcss: [
+107 silly audit report     {
+107 silly audit report       id: 1109574,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-7fh5-64p2-3v2j',
+107 silly audit report       title: 'PostCSS line return parsing error',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '<8.4.31',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1117015,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-qx2v-qp2m-jg93',
+107 silly audit report       title: 'PostCSS has XSS via Unescaped </style> in its CSS Stringify Output',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '<8.5.10',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     }
+107 silly audit report   ],
+107 silly audit report   rollup: [
+107 silly audit report     {
+107 silly audit report       id: 1099757,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-gcx4-mw62-g8wm',
+107 silly audit report       title: 'DOM Clobbering Gadget found in rollup bundled scripts that leads to XSS',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '<2.79.2',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1113517,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-mw96-cpmx-2vgc',
+107 silly audit report       title: 'Rollup 4 has Arbitrary File Write via Path Traversal',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '<2.80.0',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     }
+107 silly audit report   ],
+107 silly audit report   vite: [
+107 silly audit report     {
+107 silly audit report       id: 1099690,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-64vr-g452-qvp3',
+107 silly audit report       title: 'Vite DOM Clobbering gadget found in vite bundled scripts that leads to XSS',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '<3.2.11',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1099695,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-9cwx-2883-4wfx',
+107 silly audit report       title: "Vite's `server.fs.deny` is bypassed when using `?import&raw`",
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '<=3.2.10',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1102436,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-vg6x-rcgg-rjx6',
+107 silly audit report       title: 'Websites were able to send any requests to the development server and read the response in vite',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '<=4.5.5',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1103516,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-x574-m823-4x7w',
+107 silly audit report       title: 'Vite bypasses server.fs.deny when using ?raw??',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '<4.5.10',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1103883,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-356w-63v5-8wf4',
+107 silly audit report       title: 'Vite has an `server.fs.deny` bypass with an invalid `request-target`',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '<4.5.13',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1104172,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-859w-5945-r5v3',
+107 silly audit report       title: "Vite's server.fs.deny bypassed with /. for files under project root",
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '<=4.5.13',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1104201,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-xcj6-pq6g-qj4x',
+107 silly audit report       title: 'Vite allows server.fs.deny to be bypassed with .svg or relative paths',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '<4.5.12',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1107323,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-g4jq-h2w9-997c',
+107 silly audit report       title: 'Vite middleware may serve files starting with the same name with the public directory',
+107 silly audit report       severity: 'low',
+107 silly audit report       vulnerable_versions: '<=5.4.19',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1107327,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-jqfw-vq24-v9c3',
+107 silly audit report       title: "Vite's `server.fs` settings were not applied to HTML files",
+107 silly audit report       severity: 'low',
+107 silly audit report       vulnerable_versions: '<=5.4.19',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1112510,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-4r4m-qw57-chr8',
+107 silly audit report       title: 'Vite has a `server.fs.deny` bypassed for `inline` and `raw` with `?import` query',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '<4.5.11',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1120061,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-c27g-q93r-2cwf',
+107 silly audit report       title: 'launch-editor vulnerable to command injection via the crafted request on Windows',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '<=5.4.8',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1120784,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-v6wh-96g9-6wx3',
+107 silly audit report       title: 'launch-editor: NTLMv2 hash disclosure via UNC path handling on Windows',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '<=6.4.2',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1120789,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-fx2h-pf6j-xcff',
+107 silly audit report       title: 'vite: `server.fs.deny` bypass on Windows alternate paths',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '<=6.4.2',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1116229,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-4w7w-66w2-5vf9',
+107 silly audit report       title: 'Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling',
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '<=6.4.1',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1095468,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-c24v-8rfc-w8vw',
+107 silly audit report       title: 'Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive filesystem',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '>=3.0.0 <=3.2.7',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1096896,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-8jhw-289h-jh2g',
+107 silly audit report       title: "Vite's `server.fs.deny` did not deny requests for patterns with directories.",
+107 silly audit report       severity: 'moderate',
+107 silly audit report       vulnerable_versions: '>=3.0.0 <=3.2.8',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     },
+107 silly audit report     {
+107 silly audit report       id: 1098580,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-353f-5xf4-qw67',
+107 silly audit report       title: 'Vite Server Options (server.fs.deny) can be bypassed using double forward-slash (//)',
+107 silly audit report       severity: 'high',
+107 silly audit report       vulnerable_versions: '>=3.0.2 <3.2.7',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     }
+107 silly audit report   ]
+107 silly audit report }
+108 silly packumentCache corgi:https://registry.npmjs.org/axios cache-miss
+109 silly packumentCache corgi:https://registry.npmjs.org/braces cache-miss
+110 silly packumentCache corgi:https://registry.npmjs.org/esbuild cache-miss
+111 silly packumentCache corgi:https://registry.npmjs.org/follow-redirects cache-miss
+112 silly packumentCache corgi:https://registry.npmjs.org/form-data cache-miss
+113 silly packumentCache corgi:https://registry.npmjs.org/immutable cache-miss
+114 silly packumentCache corgi:https://registry.npmjs.org/lodash cache-miss
+115 silly packumentCache corgi:https://registry.npmjs.org/nanoid cache-miss
+116 silly packumentCache corgi:https://registry.npmjs.org/picomatch cache-miss
+117 silly packumentCache corgi:https://registry.npmjs.org/postcss cache-miss
+118 silly packumentCache corgi:https://registry.npmjs.org/rollup cache-miss
+119 silly packumentCache corgi:https://registry.npmjs.org/vite cache-miss
+120 http fetch GET 200 https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz 1522ms (cache miss)
+121 http fetch GET 200 https://registry.npmjs.org/has/-/has-1.0.3.tgz 1521ms (cache miss)
+122 http fetch GET 200 https://registry.npmjs.org/vite-plugin-full-reload/-/vite-plugin-full-reload-1.0.4.tgz 1531ms (cache miss)
+123 http fetch GET 200 https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 1550ms (cache miss)
+124 http fetch GET 200 https://registry.npmjs.org/laravel-vite-plugin/-/laravel-vite-plugin-0.6.1.tgz 1555ms (cache miss)
+125 http fetch GET 200 https://registry.npmjs.org/is-core-module/-/is-core-module-2.11.0.tgz 1559ms (cache miss)
+126 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.4.tgz 1594ms (cache miss)
+127 http fetch GET 200 https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz 1605ms (cache miss)
+128 http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-4.0.0.tgz 1654ms (cache miss)
+129 http fetch GET 200 https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz 1666ms (cache miss)
+130 http fetch GET 200 https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.2.tgz 1666ms (cache miss)
+131 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.4.18.tgz 1725ms (cache miss)
+132 http fetch GET 200 https://registry.npmjs.org/esbuild/-/esbuild-0.15.13.tgz 1743ms (cache miss)
+133 http fetch GET 200 https://registry.npmjs.org/chokidar/-/chokidar-3.5.3.tgz 1750ms (cache miss)
+134 http fetch GET 200 https://registry.npmjs.org/fill-range/-/fill-range-7.0.1.tgz 1769ms (cache miss)
+135 http fetch GET 200 https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 1777ms (cache miss)
+136 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz 1817ms (cache miss)
+137 http fetch GET 200 https://registry.npmjs.org/braces/-/braces-3.0.2.tgz 1883ms (cache miss)
+138 http fetch GET 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 1926ms (cache miss)
+139 http fetch GET 200 https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.2.0.tgz 2078ms (cache miss)
+140 http fetch GET 200 https://registry.npmjs.org/anymatch/-/anymatch-3.1.2.tgz 2101ms (cache miss)
+141 http fetch GET 200 https://registry.npmjs.org/braces 656ms (cache miss)
+142 silly packumentCache corgi:https://registry.npmjs.org/braces set size:undefined disposed:false
+143 http fetch GET 200 https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 2134ms (cache miss)
+144 http fetch GET 200 https://registry.npmjs.org/immutable/-/immutable-4.1.0.tgz 2168ms (cache miss)
+145 http fetch GET 200 https://registry.npmjs.org/axios 734ms (cache miss)
+146 silly packumentCache corgi:https://registry.npmjs.org/axios set size:undefined disposed:false
+147 http fetch GET 200 https://registry.npmjs.org/follow-redirects 897ms (cache miss)
+148 silly packumentCache corgi:https://registry.npmjs.org/follow-redirects set size:undefined disposed:false
+149 http fetch GET 200 https://registry.npmjs.org/form-data 929ms (cache miss)
+150 silly packumentCache corgi:https://registry.npmjs.org/form-data set size:undefined disposed:false
+151 http fetch GET 200 https://registry.npmjs.org/immutable 938ms (cache miss)
+152 silly packumentCache corgi:https://registry.npmjs.org/immutable set size:undefined disposed:false
+153 http fetch GET 200 https://registry.npmjs.org/lodash 1086ms (cache miss)
+154 silly packumentCache corgi:https://registry.npmjs.org/lodash set size:undefined disposed:false
+155 http fetch GET 200 https://registry.npmjs.org/picomatch 1091ms (cache miss)
+156 silly packumentCache corgi:https://registry.npmjs.org/picomatch set size:undefined disposed:false
+157 http fetch GET 200 https://registry.npmjs.org/vite/-/vite-3.2.2.tgz 2615ms (cache miss)
+158 http fetch GET 200 https://registry.npmjs.org/sass/-/sass-1.56.0.tgz 2751ms (cache miss)
+159 http fetch GET 200 https://registry.npmjs.org/nanoid 1376ms (cache miss)
+160 silly packumentCache corgi:https://registry.npmjs.org/nanoid set size:undefined disposed:false
+161 http fetch GET 200 https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz 2875ms (cache miss)
+162 http fetch GET 200 https://registry.npmjs.org/axios/-/axios-1.1.3.tgz 2956ms (cache miss)
+163 http fetch GET 200 https://registry.npmjs.org/postcss 1578ms (cache miss)
+164 silly packumentCache corgi:https://registry.npmjs.org/postcss set size:undefined disposed:false
+165 http fetch GET 200 https://registry.npmjs.org/rollup 1944ms (cache miss)
+166 silly packumentCache corgi:https://registry.npmjs.org/rollup set size:undefined disposed:false
+167 http fetch GET 200 https://registry.npmjs.org/rollup/-/rollup-2.79.1.tgz 3477ms (cache miss)
+168 http fetch GET 200 https://registry.npmjs.org/esbuild 2164ms (cache miss)
+169 silly packumentCache corgi:https://registry.npmjs.org/esbuild set size:undefined disposed:false
+170 http fetch GET 200 https://registry.npmjs.org/vite 2458ms (cache miss)
+171 silly packumentCache corgi:https://registry.npmjs.org/vite set size:undefined disposed:false
+172 silly packumentCache corgi:https://registry.npmjs.org/chokidar cache-miss
+173 http fetch GET 200 https://registry.npmjs.org/chokidar 349ms (cache miss)
+174 silly packumentCache corgi:https://registry.npmjs.org/chokidar set size:undefined disposed:false
+175 silly packumentCache corgi:https://registry.npmjs.org/sass cache-miss
+176 http fetch GET 200 https://registry.npmjs.org/bootstrap/-/bootstrap-5.2.2.tgz 4899ms (cache miss)
+177 http fetch GET 200 https://registry.npmjs.org/esbuild-windows-64/-/esbuild-windows-64-0.15.13.tgz 5083ms (cache miss)
+178 info run esbuild@0.15.13 postinstall node_modules/esbuild node install.js
+179 http fetch GET 200 https://registry.npmjs.org/sass 622ms (cache miss)
+180 silly packumentCache corgi:https://registry.npmjs.org/sass set size:undefined disposed:false
+181 silly packumentCache corgi:https://registry.npmjs.org/anymatch cache-miss
+182 silly packumentCache corgi:https://registry.npmjs.org/readdirp cache-miss
+183 silly packumentCache corgi:https://registry.npmjs.org/vite-plugin-full-reload cache-miss
+184 http fetch GET 200 https://registry.npmjs.org/anymatch 201ms (cache miss)
+185 silly packumentCache corgi:https://registry.npmjs.org/anymatch set size:undefined disposed:false
+186 http fetch GET 200 https://registry.npmjs.org/readdirp 202ms (cache miss)
+187 silly packumentCache corgi:https://registry.npmjs.org/readdirp set size:undefined disposed:false
+188 http fetch GET 200 https://registry.npmjs.org/vite-plugin-full-reload 211ms (cache miss)
+189 silly packumentCache corgi:https://registry.npmjs.org/vite-plugin-full-reload set size:undefined disposed:false
+190 silly packumentCache corgi:https://registry.npmjs.org/laravel-vite-plugin cache-miss
+191 http fetch GET 200 https://registry.npmjs.org/laravel-vite-plugin 209ms (cache miss)
+192 silly packumentCache corgi:https://registry.npmjs.org/laravel-vite-plugin set size:undefined disposed:false
+193 info run esbuild@0.15.13 postinstall { code: 0, signal: null }
+194 silly CHANGE node_modules/@popperjs/core
+195 silly CHANGE node_modules/vite-plugin-full-reload
+196 silly CHANGE node_modules/vite
+197 silly CHANGE node_modules/source-map-js
+198 silly CHANGE node_modules/sass
+199 silly CHANGE node_modules/rollup
+200 silly CHANGE node_modules/resolve
+201 silly CHANGE node_modules/proxy-from-env
+202 silly CHANGE node_modules/postcss
+203 silly CHANGE node_modules/picocolors
+204 silly CHANGE node_modules/nanoid
+205 silly CHANGE node_modules/laravel-vite-plugin
+206 silly CHANGE node_modules/is-core-module
+207 silly CHANGE node_modules/has
+208 silly CHANGE node_modules/immutable
+209 silly CHANGE node_modules/function-bind
+210 silly CHANGE node_modules/form-data
+211 silly CHANGE node_modules/chokidar
+212 silly CHANGE node_modules/follow-redirects
+213 silly CHANGE node_modules/fill-range
+214 silly CHANGE node_modules/esbuild-windows-64
+215 silly CHANGE node_modules/esbuild
+216 silly CHANGE node_modules/delayed-stream
+217 silly CHANGE node_modules/combined-stream
+218 silly CHANGE node_modules/bootstrap
+219 silly CHANGE node_modules/braces
+220 silly CHANGE node_modules/axios
+221 silly CHANGE node_modules/binary-extensions
+222 silly CHANGE node_modules/anymatch
+223 silly CHANGE node_modules/asynckit
+224 verbose cwd C:\Users\Asus\Downloads\medifyid
+225 verbose os Windows_NT 10.0.26200
+226 verbose node v25.1.0
+227 verbose npm  v11.6.2
+228 verbose exit 0
+229 info ok

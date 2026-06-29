@@ -1,0 +1,295 @@
+0 verbose cli D:\node.js\node.exe D:\node.js\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v25.1.0
+3 silly config load:file:D:\node.js\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Asus\Downloads\medifyid\.npmrc
+5 silly config load:file:C:\Users\Asus\.npmrc
+6 silly config load:file:C:\Users\Asus\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\Asus\Downloads\medifyid\.npm-cache\_logs\2026-06-28T17_19_01_983Z-
+10 verbose logfile C:\Users\Asus\Downloads\medifyid\.npm-cache\_logs\2026-06-28T17_19_01_983Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\asynckit' ]
+15 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\anymatch' ]
+16 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\axios' ]
+17 silly reify mark retired [
+17 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\binary-extensions'
+17 silly reify ]
+18 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\bootstrap' ]
+19 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\braces' ]
+20 silly reify mark retired [
+20 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\combined-stream'
+20 silly reify ]
+21 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\chokidar' ]
+22 silly reify mark retired [
+22 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\delayed-stream'
+22 silly reify ]
+23 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\esbuild' ]
+24 silly reify mark retired [
+24 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\esbuild-windows-64'
+24 silly reify ]
+25 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\fill-range' ]
+26 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\form-data' ]
+27 silly reify mark retired [
+27 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\follow-redirects'
+27 silly reify ]
+28 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\function-bind' ]
+29 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\has' ]
+30 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\immutable' ]
+31 silly reify mark retired [
+31 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\is-core-module'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\laravel-vite-plugin'
+32 silly reify ]
+33 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\nanoid' ]
+34 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\picocolors' ]
+35 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\postcss' ]
+36 silly reify mark retired [
+36 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\proxy-from-env'
+36 silly reify ]
+37 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\resolve' ]
+38 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\rollup' ]
+39 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\sass' ]
+40 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\source-map-js' ]
+41 silly reify mark retired [ 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\vite' ]
+42 silly reify mark retired [
+42 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\vite-plugin-full-reload'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\@popperjs\\core'
+43 silly reify ]
+44 silly reify moves {
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\asynckit': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.asynckit-sjA3OgpC',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\anymatch': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.anymatch-D6tqkLjD',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\axios': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.axios-DyqFMQGD',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\binary-extensions': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.binary-extensions-otQVdSUm',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\bootstrap': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.bootstrap-ZgJgvc35',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\braces': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.braces-pn8ecSUT',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\combined-stream': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.combined-stream-fluGpPtR',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\chokidar': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.chokidar-GEvpqpkU',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\delayed-stream': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.delayed-stream-xkq3EzHt',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\esbuild': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.esbuild-xXFcebf0',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\esbuild-windows-64': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.esbuild-windows-64-8DFlWgTt',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\fill-range': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.fill-range-RaGuSt5P',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\form-data': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.form-data-PF88lJSW',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\follow-redirects': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.follow-redirects-fTXTmzwI',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\function-bind': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.function-bind-uouKql7e',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\has': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.has-w2p6VUYp',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\immutable': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.immutable-w79HQG2E',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\is-core-module': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.is-core-module-wSiwAAF7',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\laravel-vite-plugin': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.laravel-vite-plugin-AF8mypno',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\nanoid': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.nanoid-skQ5opJw',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\picocolors': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.picocolors-UPpqk4tN',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\postcss': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.postcss-SxvDKaRu',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\proxy-from-env': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.proxy-from-env-AUkOWed0',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\resolve': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.resolve-Za8arRWT',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\rollup': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.rollup-XFpaNKQ3',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\sass': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.sass-BlTTDYxL',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\source-map-js': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.source-map-js-tvVXuVkO',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\vite': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.vite-I0ztkcdM',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\vite-plugin-full-reload': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\.vite-plugin-full-reload-Jm1IEEcE',
+44 silly reify   'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\@popperjs\\core': 'C:\\Users\\Asus\\Downloads\\medifyid\\node_modules\\@popperjs\\.core-F4pqr0Kj'
+44 silly reify }
+45 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with EACCES
+46 silly audit bulk request {
+46 silly audit   '@esbuild/android-arm': [ '0.15.13' ],
+46 silly audit   '@esbuild/linux-loong64': [ '0.15.13' ],
+46 silly audit   '@popperjs/core': [ '2.11.6' ],
+46 silly audit   anymatch: [ '3.1.2' ],
+46 silly audit   asynckit: [ '0.4.0' ],
+46 silly audit   axios: [ '1.1.3' ],
+46 silly audit   'binary-extensions': [ '2.2.0' ],
+46 silly audit   bootstrap: [ '5.2.2' ],
+46 silly audit   braces: [ '3.0.2' ],
+46 silly audit   chokidar: [ '3.5.3' ],
+46 silly audit   'combined-stream': [ '1.0.8' ],
+46 silly audit   'delayed-stream': [ '1.0.0' ],
+46 silly audit   esbuild: [ '0.15.13' ],
+46 silly audit   'esbuild-android-64': [ '0.15.13' ],
+46 silly audit   'esbuild-android-arm64': [ '0.15.13' ],
+46 silly audit   'esbuild-darwin-64': [ '0.15.13' ],
+46 silly audit   'esbuild-darwin-arm64': [ '0.15.13' ],
+46 silly audit   'esbuild-freebsd-64': [ '0.15.13' ],
+46 silly audit   'esbuild-freebsd-arm64': [ '0.15.13' ],
+46 silly audit   'esbuild-linux-32': [ '0.15.13' ],
+46 silly audit   'esbuild-linux-64': [ '0.15.13' ],
+46 silly audit   'esbuild-linux-arm': [ '0.15.13' ],
+46 silly audit   'esbuild-linux-arm64': [ '0.15.13' ],
+46 silly audit   'esbuild-linux-mips64le': [ '0.15.13' ],
+46 silly audit   'esbuild-linux-ppc64le': [ '0.15.13' ],
+46 silly audit   'esbuild-linux-riscv64': [ '0.15.13' ],
+46 silly audit   'esbuild-linux-s390x': [ '0.15.13' ],
+46 silly audit   'esbuild-netbsd-64': [ '0.15.13' ],
+46 silly audit   'esbuild-openbsd-64': [ '0.15.13' ],
+46 silly audit   'esbuild-sunos-64': [ '0.15.13' ],
+46 silly audit   'esbuild-windows-32': [ '0.15.13' ],
+46 silly audit   'esbuild-windows-64': [ '0.15.13' ],
+46 silly audit   'esbuild-windows-arm64': [ '0.15.13' ],
+46 silly audit   'fill-range': [ '7.0.1' ],
+46 silly audit   'follow-redirects': [ '1.15.2' ],
+46 silly audit   'form-data': [ '4.0.0' ],
+46 silly audit   fsevents: [ '2.3.2' ],
+46 silly audit   'function-bind': [ '1.1.1' ],
+46 silly audit   'glob-parent': [ '5.1.2' ],
+46 silly audit   has: [ '1.0.3' ],
+46 silly audit   immutable: [ '4.1.0' ],
+46 silly audit   'is-binary-path': [ '2.1.0' ],
+46 silly audit   'is-core-module': [ '2.11.0' ],
+46 silly audit   'is-extglob': [ '2.1.1' ],
+46 silly audit   'is-glob': [ '4.0.3' ],
+46 silly audit   'is-number': [ '7.0.0' ],
+46 silly audit   'laravel-vite-plugin': [ '0.6.1' ],
+46 silly audit   lodash: [ '4.17.21' ],
+46 silly audit   'mime-db': [ '1.52.0' ],
+46 silly audit   'mime-types': [ '2.1.35' ],
+46 silly audit   nanoid: [ '3.3.4' ],
+46 silly audit   'normalize-path': [ '3.0.0' ],
+46 silly audit   'path-parse': [ '1.0.7' ],
+46 silly audit   picocolors: [ '1.0.0' ],
+46 silly audit   picomatch: [ '2.3.1' ],
+46 silly audit   postcss: [ '8.4.18' ],
+46 silly audit   'proxy-from-env': [ '1.1.0' ],
+46 silly audit   readdirp: [ '3.6.0' ],
+46 silly audit   resolve: [ '1.22.1' ],
+46 silly audit   rollup: [ '2.79.1' ],
+46 silly audit   sass: [ '1.56.0' ],
+46 silly audit   'source-map-js': [ '1.0.2' ],
+46 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+46 silly audit   'to-regex-range': [ '5.0.1' ],
+46 silly audit   vite: [ '3.2.2' ],
+46 silly audit   'vite-plugin-full-reload': [ '1.0.4' ]
+46 silly audit }
+47 http cache @popperjs/core@https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz 1ms (cache hit)
+48 http cache vite-plugin-full-reload@https://registry.npmjs.org/vite-plugin-full-reload/-/vite-plugin-full-reload-1.0.4.tgz 0ms (cache hit)
+49 http cache vite@https://registry.npmjs.org/vite/-/vite-3.2.2.tgz 0ms (cache hit)
+50 verbose audit error FetchError: request to https://registry.npmjs.org/-/npm/v1/security/advisories/bulk failed, reason: 
+50 verbose audit error     at ClientRequest.<anonymous> (D:\node.js\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+50 verbose audit error     at ClientRequest.emit (node:events:508:28)
+50 verbose audit error     at emitErrorEvent (node:_http_client:108:11)
+50 verbose audit error     at _destroy (node:_http_client:962:9)
+50 verbose audit error     at onSocketNT (node:_http_client:982:5)
+50 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+50 verbose audit error   code: 'EACCES',
+50 verbose audit error   errno: 'EACCES',
+50 verbose audit error   type: 'system'
+50 verbose audit error }
+51 silly audit error undefined
+52 silly audit report null
+53 http cache rollup@https://registry.npmjs.org/rollup/-/rollup-2.79.1.tgz 0ms (cache hit)
+54 http cache proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 0ms (cache hit)
+55 http cache source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz 0ms (cache hit)
+56 http cache sass@https://registry.npmjs.org/sass/-/sass-1.56.0.tgz 0ms (cache hit)
+57 http cache resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz 0ms (cache hit)
+58 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.18.tgz 0ms (cache hit)
+59 http cache nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.4.tgz 0ms (cache hit)
+60 http cache picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz 0ms (cache hit)
+61 http cache has@https://registry.npmjs.org/has/-/has-1.0.3.tgz 0ms (cache hit)
+62 http cache laravel-vite-plugin@https://registry.npmjs.org/laravel-vite-plugin/-/laravel-vite-plugin-0.6.1.tgz 0ms (cache hit)
+63 http cache function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz 0ms (cache hit)
+64 http cache immutable@https://registry.npmjs.org/immutable/-/immutable-4.1.0.tgz 0ms (cache hit)
+65 http cache follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.2.tgz 0ms (cache hit)
+66 http cache is-core-module@https://registry.npmjs.org/is-core-module/-/is-core-module-2.11.0.tgz 0ms (cache hit)
+67 http cache form-data@https://registry.npmjs.org/form-data/-/form-data-4.0.0.tgz 0ms (cache hit)
+68 http cache esbuild-windows-64@https://registry.npmjs.org/esbuild-windows-64/-/esbuild-windows-64-0.15.13.tgz 0ms (cache hit)
+69 http cache fill-range@https://registry.npmjs.org/fill-range/-/fill-range-7.0.1.tgz 0ms (cache hit)
+70 http cache combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 0ms (cache hit)
+71 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.15.13.tgz 0ms (cache hit)
+72 http cache chokidar@https://registry.npmjs.org/chokidar/-/chokidar-3.5.3.tgz 0ms (cache hit)
+73 http cache braces@https://registry.npmjs.org/braces/-/braces-3.0.2.tgz 0ms (cache hit)
+74 http cache delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 0ms (cache hit)
+75 http cache asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 0ms (cache hit)
+76 http cache binary-extensions@https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.2.0.tgz 0ms (cache hit)
+77 http cache bootstrap@https://registry.npmjs.org/bootstrap/-/bootstrap-5.2.2.tgz 0ms (cache hit)
+78 http cache axios@https://registry.npmjs.org/axios/-/axios-1.1.3.tgz 0ms (cache hit)
+79 silly tarball no local data for @popperjs/core@https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz. Extracting by manifest.
+80 silly tarball no local data for vite-plugin-full-reload@https://registry.npmjs.org/vite-plugin-full-reload/-/vite-plugin-full-reload-1.0.4.tgz. Extracting by manifest.
+81 silly tarball no local data for vite@https://registry.npmjs.org/vite/-/vite-3.2.2.tgz. Extracting by manifest.
+82 silly tarball no local data for rollup@https://registry.npmjs.org/rollup/-/rollup-2.79.1.tgz. Extracting by manifest.
+83 silly tarball no local data for proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz. Extracting by manifest.
+84 silly tarball no local data for source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz. Extracting by manifest.
+85 silly tarball no local data for sass@https://registry.npmjs.org/sass/-/sass-1.56.0.tgz. Extracting by manifest.
+86 silly tarball no local data for resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz. Extracting by manifest.
+87 http cache anymatch@https://registry.npmjs.org/anymatch/-/anymatch-3.1.2.tgz 0ms (cache hit)
+88 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.18.tgz. Extracting by manifest.
+89 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.4.tgz. Extracting by manifest.
+90 silly tarball no local data for picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz. Extracting by manifest.
+91 silly tarball no local data for has@https://registry.npmjs.org/has/-/has-1.0.3.tgz. Extracting by manifest.
+92 silly tarball no local data for laravel-vite-plugin@https://registry.npmjs.org/laravel-vite-plugin/-/laravel-vite-plugin-0.6.1.tgz. Extracting by manifest.
+93 silly tarball no local data for function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz. Extracting by manifest.
+94 silly tarball no local data for immutable@https://registry.npmjs.org/immutable/-/immutable-4.1.0.tgz. Extracting by manifest.
+95 silly tarball no local data for follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.2.tgz. Extracting by manifest.
+96 silly tarball no local data for is-core-module@https://registry.npmjs.org/is-core-module/-/is-core-module-2.11.0.tgz. Extracting by manifest.
+97 silly tarball no local data for form-data@https://registry.npmjs.org/form-data/-/form-data-4.0.0.tgz. Extracting by manifest.
+98 silly tarball no local data for esbuild-windows-64@https://registry.npmjs.org/esbuild-windows-64/-/esbuild-windows-64-0.15.13.tgz. Extracting by manifest.
+99 silly tarball no local data for fill-range@https://registry.npmjs.org/fill-range/-/fill-range-7.0.1.tgz. Extracting by manifest.
+100 silly tarball no local data for combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz. Extracting by manifest.
+101 silly tarball no local data for esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.15.13.tgz. Extracting by manifest.
+102 silly tarball no local data for chokidar@https://registry.npmjs.org/chokidar/-/chokidar-3.5.3.tgz. Extracting by manifest.
+103 silly tarball no local data for braces@https://registry.npmjs.org/braces/-/braces-3.0.2.tgz. Extracting by manifest.
+104 silly tarball no local data for delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz. Extracting by manifest.
+105 silly tarball no local data for asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz. Extracting by manifest.
+106 silly tarball no local data for binary-extensions@https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.2.0.tgz. Extracting by manifest.
+107 silly tarball no local data for bootstrap@https://registry.npmjs.org/bootstrap/-/bootstrap-5.2.2.tgz. Extracting by manifest.
+108 silly tarball no local data for axios@https://registry.npmjs.org/axios/-/axios-1.1.3.tgz. Extracting by manifest.
+109 silly tarball no local data for anymatch@https://registry.npmjs.org/anymatch/-/anymatch-3.1.2.tgz. Extracting by manifest.
+110 http fetch GET https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz attempt 1 failed with EACCES
+111 http fetch GET https://registry.npmjs.org/vite-plugin-full-reload/-/vite-plugin-full-reload-1.0.4.tgz attempt 1 failed with EACCES
+112 http fetch GET https://registry.npmjs.org/vite/-/vite-3.2.2.tgz attempt 1 failed with EACCES
+113 http fetch GET https://registry.npmjs.org/rollup/-/rollup-2.79.1.tgz attempt 1 failed with EACCES
+114 http fetch GET https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz attempt 1 failed with EACCES
+115 http fetch GET https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz attempt 1 failed with EACCES
+116 http fetch GET https://registry.npmjs.org/sass/-/sass-1.56.0.tgz attempt 1 failed with EACCES
+117 http fetch GET https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz attempt 1 failed with EACCES
+118 http fetch GET https://registry.npmjs.org/postcss/-/postcss-8.4.18.tgz attempt 1 failed with EACCES
+119 http fetch GET https://registry.npmjs.org/nanoid/-/nanoid-3.3.4.tgz attempt 1 failed with EACCES
+120 http fetch GET https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz attempt 1 failed with EACCES
+121 http fetch GET https://registry.npmjs.org/has/-/has-1.0.3.tgz attempt 1 failed with EACCES
+122 http fetch GET https://registry.npmjs.org/laravel-vite-plugin/-/laravel-vite-plugin-0.6.1.tgz attempt 1 failed with EACCES
+123 http fetch GET https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz attempt 1 failed with EACCES
+124 http fetch GET https://registry.npmjs.org/immutable/-/immutable-4.1.0.tgz attempt 1 failed with EACCES
+125 http fetch GET https://registry.npmjs.org/npm attempt 2 failed with EACCES
+126 http fetch GET https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz attempt 2 failed with EACCES
+127 http fetch GET https://registry.npmjs.org/vite-plugin-full-reload/-/vite-plugin-full-reload-1.0.4.tgz attempt 2 failed with EACCES
+128 http fetch GET https://registry.npmjs.org/vite/-/vite-3.2.2.tgz attempt 2 failed with EACCES
+129 http fetch GET https://registry.npmjs.org/rollup/-/rollup-2.79.1.tgz attempt 2 failed with EACCES
+130 http fetch GET https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz attempt 2 failed with EACCES
+131 http fetch GET https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz attempt 2 failed with EACCES
+132 http fetch GET https://registry.npmjs.org/sass/-/sass-1.56.0.tgz attempt 2 failed with EACCES
+133 http fetch GET https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz attempt 2 failed with EACCES
+134 http fetch GET https://registry.npmjs.org/postcss/-/postcss-8.4.18.tgz attempt 2 failed with EACCES
+135 http fetch GET https://registry.npmjs.org/nanoid/-/nanoid-3.3.4.tgz attempt 2 failed with EACCES
+136 http fetch GET https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz attempt 2 failed with EACCES
+137 http fetch GET https://registry.npmjs.org/has/-/has-1.0.3.tgz attempt 2 failed with EACCES
+138 http fetch GET https://registry.npmjs.org/laravel-vite-plugin/-/laravel-vite-plugin-0.6.1.tgz attempt 2 failed with EACCES
+139 http fetch GET https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz attempt 2 failed with EACCES
+140 http fetch GET https://registry.npmjs.org/immutable/-/immutable-4.1.0.tgz attempt 2 failed with EACCES
+141 http fetch GET https://registry.npmjs.org/npm attempt 3 failed with EACCES
+142 http fetch GET https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz attempt 3 failed with EACCES
+143 http fetch GET https://registry.npmjs.org/vite-plugin-full-reload/-/vite-plugin-full-reload-1.0.4.tgz attempt 3 failed with EACCES
+144 http fetch GET https://registry.npmjs.org/vite/-/vite-3.2.2.tgz attempt 3 failed with EACCES
+145 http fetch GET https://registry.npmjs.org/rollup/-/rollup-2.79.1.tgz attempt 3 failed with EACCES
+146 http fetch GET https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz attempt 3 failed with EACCES
+147 http fetch GET https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz attempt 3 failed with EACCES
+148 http fetch GET https://registry.npmjs.org/sass/-/sass-1.56.0.tgz attempt 3 failed with EACCES
+149 http fetch GET https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz attempt 3 failed with EACCES
+150 http fetch GET https://registry.npmjs.org/postcss/-/postcss-8.4.18.tgz attempt 3 failed with EACCES
+151 http fetch GET https://registry.npmjs.org/nanoid/-/nanoid-3.3.4.tgz attempt 3 failed with EACCES
+152 http fetch GET https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz attempt 3 failed with EACCES
+153 http fetch GET https://registry.npmjs.org/has/-/has-1.0.3.tgz attempt 3 failed with EACCES
+154 http fetch GET https://registry.npmjs.org/laravel-vite-plugin/-/laravel-vite-plugin-0.6.1.tgz attempt 3 failed with EACCES
+155 http fetch GET https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz attempt 3 failed with EACCES
+156 http fetch GET https://registry.npmjs.org/immutable/-/immutable-4.1.0.tgz attempt 3 failed with EACCES
+157 verbose cwd C:\Users\Asus\Downloads\medifyid
+158 verbose os Windows_NT 10.0.26200
+159 verbose node v25.1.0
+160 verbose npm  v11.6.2
+161 error Exit handler never called!
+162 error This is an error with npm itself. Please report this error at:
+163 error   <https://github.com/npm/cli/issues>
+164 verbose exit 1
+165 verbose code 1
+166 error A complete log of this run can be found in: C:\Users\Asus\Downloads\medifyid\.npm-cache\_logs\2026-06-28T17_19_01_983Z-debug-0.log

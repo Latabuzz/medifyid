@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\KategoriItemController;
+use App\Http\Controllers\MasterItemsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,13 +23,18 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/master-items', [App\Http\Controllers\MasterItemsController::class, 'index']);
-Route::get('/master-items/search', [App\Http\Controllers\MasterItemsController::class, 'search']);
-Route::get('/master-items/form/{method}/{id?}', [App\Http\Controllers\MasterItemsController::class, 'formView']);
-Route::post('/master-items/form/{method}/{id?}', [App\Http\Controllers\MasterItemsController::class, 'formSubmit']);
+Route::get('/master-items/export-excel', [MasterItemsController::class, 'exportExcel'])->name('master-items.export-excel');
+Route::get('/master-items', [MasterItemsController::class, 'index'])->name('master-items.index');
+Route::get('/master-items/search', [MasterItemsController::class, 'search'])->name('master-items.search');
+Route::get('/master-items/form/{method}/{id?}', [MasterItemsController::class, 'formView'])->name('master-items.form');
+Route::post('/master-items/form/{method}/{id?}', [MasterItemsController::class, 'formSubmit'])->name('master-items.submit');
 
-Route::get('/master-items/view/{kode}', [App\Http\Controllers\MasterItemsController::class, 'singleView']);
-Route::get('/master-items/delete/{id}', [App\Http\Controllers\MasterItemsController::class, 'delete']);
+Route::get('/master-items/view/{kode}', [MasterItemsController::class, 'singleView'])->name('master-items.view');
+Route::get('/master-items/delete/{id}', [MasterItemsController::class, 'delete'])->name('master-items.delete');
 
+Route::get('/kategori-items/{kategoriItem}/pdf', [KategoriItemController::class, 'downloadPdf'])->name('kategori-items.pdf');
+Route::resource('kategori-items', KategoriItemController::class)->parameters([
+    'kategori-items' => 'kategoriItem',
+]);
 
-Route::get('/master-items/update-random-data', [App\Http\Controllers\MasterItemsController::class, 'updateRandomData']);
+Route::get('/master-items/update-random-data', [MasterItemsController::class, 'updateRandomData']);
